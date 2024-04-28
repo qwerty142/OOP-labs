@@ -4,4 +4,12 @@
         <RootNamespace>Itmo.ObjectOrientedProgramming.Lab3</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Brookstone.Infrastructure" />
+
+    </ItemGroup>
+
+
+
+
 </Project>
