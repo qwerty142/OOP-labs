@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Itmo.ObjectOrientedProgramming.Lab1</RootNamespace>
+    </PropertyGroup>
+
+
+
+
+    <ItemGroup>
+      <Compile Remove="Ship\Boat\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Ship\Boat\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Ship\Boat\**" />
+
+
+
+
+
+
+
+    <!--<ItemGroup>
+      <Folder Include="Services\" />
+    </ItemGroup>-->
+
+
+    </ItemGroup>
+
+
+
+
+
+
+
+</Project>
